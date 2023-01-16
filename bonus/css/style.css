@@ -4,6 +4,10 @@
     padding:0px;
 }
 
+#contenitore{
+    width:80%;
+    margin:auto;
+}
 
 /* definisco background dell header,
 aggiungo l'immagine di sfondo e sistemo la sua
@@ -23,7 +27,7 @@ header{
 
 /* stile e dimensioni */
 #titolo_grande{
-    font-size: 4em;
+    font-size: 3em;
 }
 .white{
     color:white;
