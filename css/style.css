@@ -1,6 +1,7 @@
 /* elimino tutti i margini di default */
 *{
-    margin:auto;
+    margin:0px;
+    padding:0px;
 }
 
 /* definisco background dell header,
@@ -13,7 +14,7 @@ header{
 
 /* posizione e dimensione logo */
 #logo{
-    text-align:center;
+    
     max-width: 20%;
 }
 
@@ -33,24 +34,24 @@ header{
     background-color:yellow;
 }
 
-/*inserisco lo stile dei div e span della tabella*/
+/* metto il padding sull elenco per mostrare i pallini */
+#elenco{
+    padding:16px;    
+}
 
-#intestazione_tabella{
+/* colori e dimensionamento table */
+#testa_tabella{
+    background-color:rgb(31, 169, 229);
     color:white;
-    background-color:rgb(32,169, 229);
+}
+.short_column{
+    width: 25%;
 }
 
-.row_tabella{
-    background-color:rgb(164, 213, 225) ;
+.long_column{
+    width: 50%;
 }
 
-.first_column{
-    text-align: left;
-}
-
-.second_column{
-    text-align: center;
-}
-.description_column{
-    text-align: right;
+.blue_row{
+    background-color: rgb(177, 229, 242);
 }
