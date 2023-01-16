@@ -1,5 +1,5 @@
-/* elimino tutti i margini di default */
-*{
+/* elimino tutti i margini della prima sezione */
+#intro_tim{
     margin:auto;
 }
 /* definisco background dell header,
