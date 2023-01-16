@@ -1,0 +1,11 @@
+/* definisco background dell header,
+aggiungo l'immagine di sfondo*/
+header{
+    background-image: url(../img/pattern.png);
+    background-color: rgb(78, 160, 255); 
+}
+
+/*e posizione logo */
+#logo{
+    text-align: left;
+}
