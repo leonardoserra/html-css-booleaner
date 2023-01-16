@@ -1,9 +1,13 @@
+/* elimino tutti i margini di default */
+*{
+    margin:auto;
+}
 /* definisco background dell header,
 aggiungo l'immagine di sfondo*/
 header{
     background-image: url(../img/pattern.png);
     background-color: rgb(78, 160, 255);
-    background-size:contain;
+    background-size:20%;
 }
 
 /* posizione e dimensione logo */
