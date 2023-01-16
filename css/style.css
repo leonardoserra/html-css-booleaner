@@ -1,7 +1,8 @@
-/* elimino tutti i margini della prima sezione */
-#intro_tim{
+/* elimino tutti i margini di default */
+*{
     margin:auto;
 }
+
 /* definisco background dell header,
 aggiungo l'immagine di sfondo*/
 header{
@@ -25,4 +26,9 @@ header{
 }
 .testo_piccolissimo{
     font-size:11px;
+}
+
+/* evidenziatore */
+.yellow_marker{
+    background-color:yellow;
 }
