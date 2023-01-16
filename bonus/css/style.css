@@ -1,0 +1,80 @@
+/* elimino tutti i margini di default */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+/* definisco background dell header,
+aggiungo l'immagine di sfondo e sistemo la sua
+posizione col padding*/
+header{
+    background-image: url(../img/pattern.png);
+    background-color: rgb(78, 160, 255);
+    background-size:30%;
+    padding: 40px 0px 0px;
+}
+
+/* posizione e dimensione logo */
+#logo{
+    
+    max-width: 18%;
+}
+
+/* stile e dimensioni */
+#titolo_grande{
+    font-size: 4em;
+}
+.white{
+    color:white;
+}
+.grigio{
+    color:grey;
+}
+.testo_piccolissimo{
+    font-size:11px;
+}
+
+/* evidenziatore */
+.yellow_marker{
+    background-color:yellow;
+}
+
+/* metto il padding sull elenco per mostrare i pallini */
+#elenco{
+    padding:16px;    
+}
+
+/* colori e dimensionamento table */
+#testa_tabella{
+    background-color:rgb(31, 169, 229);
+}
+.short_column{
+    width: 25%;
+}
+
+.long_column{
+    width: 50%;
+}
+
+.blue_row{
+    background-color: rgb(177, 229, 242);
+}
+
+/* creo l'ultima sezione */
+#articolo1{
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+}
+
+#articolo2{
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}
+
+.square{
+  border: 0px solid black;
+  width: 200px;
+  height: 200px;
+
+}
