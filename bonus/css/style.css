@@ -20,6 +20,10 @@ header{
 }
 
 /* posizione e dimensione logo */
+#container_logo{
+    width:80%;
+    margin:auto;
+}
 #logo{
     
     max-width: 18%;
