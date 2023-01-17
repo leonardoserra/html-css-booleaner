@@ -2,13 +2,16 @@
 *{
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
 }
 
 #contenitore{
     width:80%;
     margin:auto;
 }
-
+.descrizione{
+    margin-top: 10px;
+}
 /* definisco background dell header,
 aggiungo l'immagine di sfondo e sistemo la sua
 posizione col padding*/
@@ -61,6 +64,11 @@ perche' e' semantico*/
 }
 
 /* colori e dimensionamento table */
+
+/* togliamo gli spazi alla tabella */
+table{
+    border-spacing: 0;
+}
 #testa_tabella{
     background-color:rgb(31, 169, 229);
 }
@@ -79,19 +87,20 @@ perche' e' semantico*/
 /* creo l'ultima sezione */
 #articolo1{
     background-image: url(../img/monitor.jpg);
-    background-size: cover;
 }
 
 #articolo2{
     background-image: url(../img/graph.jpg);
-    background-size: cover;
+    
 }
 /* dimensione del quadrato per l'articolo */
 .square{
+    /* border: 0px solid black; */
     margin:5px 0px 5px 0px;
-    border: 0px solid black;
+    padding: 2px;
     width: 200px;
     height: 200px;
+    background-size: cover;
 
 }
 /* stile del footer */
