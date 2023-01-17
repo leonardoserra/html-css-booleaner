@@ -16,34 +16,41 @@ header{
     background-image: url(../img/pattern.png);
     background-color: rgb(78, 160, 255);
     background-size:30%;
-    padding: 40px 0px 0px;
 }
 
 /* posizione e dimensione logo */
 #container_logo{
     width:80%;
     margin:auto;
+    padding: 40px 0px 0px;
 }
 #logo{
-    
-    max-width: 18%;
+    /*meglio usare l'altezza per definire i loghi
+    e meglio usarla in pixel e non in percentuale*/
+    height: 50px;
 }
 
 /* stile e dimensioni */
 #titolo_grande{
     font-size: 3em;
 }
+.blue{
+    color:rgb(31, 169, 229);
+}
 .white{
     color:white;
 }
-.grigio{
+.grigio.bold{
     color:grey;
+    font-weight: 700;
 }
 .testo_piccolissimo{
     font-size:11px;
 }
 
-/* evidenziatore */
+/* evidenziatore 
+se usi mark su html e' meglio
+perche' e' semantico*/
 .yellow_marker{
     background-color:yellow;
 }
